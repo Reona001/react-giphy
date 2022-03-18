@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SearchBar = () => {
-  const { searchGiphy } = props;
+  // const { searchGiphy } = props;
   const handleChange =(event) => {
     console.log(event.currentTarget.value);
     searchGiphy(event.currentTarget.value);

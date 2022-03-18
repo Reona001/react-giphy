@@ -1,7 +1,9 @@
 import React, { useState } from 'react';  //anything use is a hook
+
 import Gif from './Gif';
-import SearchBar from './SearchBar';
 import GifList from './GifList';
+import SearchBar from './SearchBar';
+
 
 const giphy = require('giphy-api')({
   apiKey: 'KsltJNEs1v3QDDVlinP6EFo2GqjFxgRR',
