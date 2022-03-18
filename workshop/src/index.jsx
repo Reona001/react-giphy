@@ -46,7 +46,7 @@ console.log(root);
 // ReactDOM.render(<Hello name="Dave" flag="flag" />, root);
 
 
-ReactDOM.render(<App/>, root);
+ReactDOM.render(<App />, root);
 
 
 //Other topics
